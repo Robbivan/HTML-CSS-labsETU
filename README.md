@@ -1,2 +1,2 @@
-# HTML-CSS-labs-etu
+# HTML_CSS-labs-etu
 Лабораторные по HTML и CSS в Leti
