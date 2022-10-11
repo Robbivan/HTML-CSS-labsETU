@@ -1,0 +1,104 @@
+.top_info {
+    width: 980px;
+    height: 29px;
+    background-color: gray;
+}
+
+.top_part {
+    width: 980px;
+    height: 102px;
+    background-color: lavender;
+}
+
+.logo {
+    width: 280px;
+    height: 102px;
+    background-color: darksalmon;
+    float: left;
+}
+
+.top_menu {
+    width: 700px;
+    height: 102px;
+    background-color: wheat;
+    float: left;
+}
+
+.main_part {
+    width: 980px;
+    min-height: 435px;
+    background-color: aliceblue;
+}
+
+.banner {
+    width: 980px;
+    height: 135px;
+    background-color: rgb(52, 233, 52);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.conteiner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
+}
+
+.news {
+    width: 350px;
+    height: 350px;/* Тут было 300*/
+    background-color: orange;
+    float: left;
+}
+
+.posts {
+    width: 630px;
+    height: 350px;/* Тут было 300*/
+    background-color: darkslateblue;
+    float: left;
+}
+
+.pre_footer {
+    width: 980px;
+    height: 296px;
+    background-color: gray;
+}
+
+.search {
+    width: 350px;
+    height: 296px;
+    background-color: salmon;
+    float: left;
+}
+
+.bottom_menu {
+    width: 200px;
+    height: 296px;
+    background-color: goldenrod;
+    float: left;
+}
+
+.social_network {
+    width: 200px;
+    height: 296px;
+    background-color: deepskyblue;
+    float: left;
+}
+
+.adress {
+    width: 230px;
+    height: 296px;
+    background-color: orangered;
+    float: left;
+}
+
+.footer {
+    width: 980px;
+    height: 100px;
+    background-color: darkslategray;
+}
+
+
+
+
+

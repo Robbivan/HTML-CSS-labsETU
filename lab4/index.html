@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Форма</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h3 class="subtitle">Full name</h3>
+        <p>
+            <input name="First Name" type="text" placeholder="First name" size="26" pattern="[A-Z]">
+            <input name="Last Name" type="text" placeholder="Last name" size="26" pattern="[A-Z]">
+        </p>
+        <h3 class="subtitle"> Address</h3>
+        <p>
+            <input name="Street" type="text" placeholder="Street Address" size="59">
+        </p>
+        <p> 
+            <input name="City" type="text" placeholder="City" size="15" pattern="[A-Z]">
+            <input name="State" type="text" placeholder="State" size="15" pattern="[A-Z]">
+            <input name="ZIP" type="text" placeholder="ZIP code" size="16">
+        </p>
+        <h3 class="subtitle">Contact information</h3>
+        <p>
+            <input name="Email" type="text" placeholder="Email*" size="26" required><!---чтобы невозможно было не отправить-->
+            <input name="Phone" type="number" placeholder="Phone" size="26">
+        </p>
+        <h3 class="subtitle">Question / Comments</h3>
+        <p>
+            <textarea placeholder="Message*" cols="59" rows="4" required></textarea>
+        </p>
+        <p>
+        <input type="checkbox">
+            <label> Update me on deals and special offers via email. </label>
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
