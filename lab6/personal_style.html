@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Personal form</title>
+  </head>
+  
+  <link rel="stylesheet"
+   type="text/css"
+   href="personal_style.css" />
+
+  <body>
+    <form action="index.html">
+      <h1>Личная</h1>
+      <p>Имя: 
+        <input class="box_for_text" type="text" pattern="[A-Za-z, А-Яа-я]*" placeholder="Имя">      </p>
+      
+      <p>Фамилия: 
+        <input class="box_for_text" type="text" pattern="[A-Za-z, А-Яа-я]*" placeholder="Фамилия">
+      </p>
+      
+      <p>E-mail: 
+        <input type="email" placeholder="E-mail*" required>
+      </p>
+      
+      <p>Адрес: 
+        <input type="text" placeholder="Адрес">
+      </p>
+      
+      <h2>Интересы</h2>  
+      <p> 
+        <input type="checkbox" name="hobby" value="computers"> Игры
+        <input type="checkbox" name="hobby" value="literature"> Путешествия
+        <input type="checkbox" name="hobby" value="music"> Музыка
+        <input type="checkbox" name="hobby" value="auto"> Литература
+        <input type="checkbox" name="hobby" value="sport"> Спорт
+      </p>
+
+      <h2>Логин</h2>
+      <p>Имя пользователя:
+        <input type="text" name="login" placeholder="Username*" required> 
+      </p>
+      <p>Пароль: 
+        <input type="password" name="login" placeholder="Password*" required>
+      </p>
+
+      <p>Комментарий:
+        <p>
+          <textarea cols="60" rows="4" placeholder="Комментарий"></textarea>
+        </p>
+      </p>
+
+      <p>
+        <input type="submit" value="Подтвердить">
+      </p>
+      
+      
+    </form>
+  </body>
+
+</html>

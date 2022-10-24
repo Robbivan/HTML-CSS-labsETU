@@ -1,0 +1,29 @@
+form {
+    margin: 0 auto;
+    width: 900px;
+    padding: 1em;
+}
+
+input[type=submit] {
+    background: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 330px;
+    margin-top: 30px;
+}
+
+input:focus {
+    border: 2px solid;
+    border-color: dimgray;
+}
+
+input, textarea {
+    font-family:'Courier New', Courier, monospace;
+    background: #DCDCDC;
+    border: 1px solid;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
